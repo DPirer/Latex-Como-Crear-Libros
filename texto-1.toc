@@ -1,0 +1,4 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{3}
+\contentsline {section}{\numberline {1.1}Peque\IeC {\~n}o repaso}{3}
+\contentsline {chapter}{\numberline {2}El modelo matem\IeC {\'a}tico de flexi\IeC {\'o}n de una viga}{5}

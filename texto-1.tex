@@ -1,0 +1,28 @@
+\documentclass{book}
+\usepackage[spanish]{babel} % Agregamos la ortografía española
+\usepackage[utf8]{inputenc} % Agregamos las tildes
+\usepackage{amsmath} % Sin este no podría usar ciertos entornos como el de ecuación
+\usepackage{amssymb} % Sin este no puedo usar algunos símbolos matemáticos
+
+
+
+\begin{document}
+	\tableofcontents
+	\chapter{Introducción}
+	En este libro vamos a tratar el concepto de los libros en latex
+	\section{Pequeño repaso}
+	Vemos que podemos hacer básicamente lo mismo que con un artículo
+	\chapter{El modelo matemático de flexión de una viga}
+	Al igual que podemos crear un índice para el libro, también podemos crear un índice de figuras y otro de tablas.
+
+Usando el teorema dado en el libro \cite{articulo1} \cite{articulo2}
+
+% \begin{thebibliography}{99}
+%\bibitem{libro1} Pérez ortega, Cálculo I, Ed. alhambra 2008
+% \end{thebibliography}
+
+\bibliography{bibliografia}
+\bibliographystyle{plain}
+	
+	
+\end{document}
